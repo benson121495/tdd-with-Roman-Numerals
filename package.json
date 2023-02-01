@@ -1,0 +1,22 @@
+{
+  "name": "tdd-with-roman-rumerals",
+  "version": "1.0.0",
+  "description": "",
+  "main": "roman.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benson121495/tdd-with-Roman-Numerals.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benson121495/tdd-with-Roman-Numerals/issues"
+  },
+  "homepage": "https://github.com/benson121495/tdd-with-Roman-Numerals#readme",
+  "devDependencies": {
+    "jest": "^29.4.1"
+  }
+}
