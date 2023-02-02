@@ -1,9 +1,11 @@
 
-import { changeToRoman } from "./roman";
+import { toRoman } from "./roman";
 
-describe("findNextNumber", () => {
-    test("returns the next number after the given number in the array", () => {
-        expect(changeToRoman(1)).toBe('I');
 
-    });
+test("I to 1", () => {
+    expect(toRoman(1)).toBe('I');
+});
+
+test("II to 2", () => {
+    expect(toRoman(2)).toBe('II');
 });

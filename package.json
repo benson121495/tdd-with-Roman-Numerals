@@ -1,7 +1,7 @@
 {
   "name": "tdd-with-roman-rumerals",
   "version": "1.0.0",
-  "description": "",
+  "description": "test roman",
   "main": "roman.js",
   "scripts": {
     "test": "jest"
@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/benson121495/tdd-with-Roman-Numerals#readme",
   "devDependencies": {
+    "@babel/core": "^7.20.2",
+		"@babel/preset-env": "^7.20.2",
+		"babel-jest": "^29.3.1",
     "jest": "^29.4.1"
   }
 }
