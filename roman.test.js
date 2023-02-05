@@ -15,11 +15,15 @@ test("28 to XXVIII", () => {
 });
 
 test("600 to DC", () => {
-    expect(toRoman(28)).toBe('DC');
+    expect(toRoman(600)).toBe('DC');
 });
 
 test("3724 to MMMDCCXXIV", () => {
     expect(toRoman(3724)).toBe('MMMDCCXXIV');
+});
+
+test("7728 to MMMDCCXXIV", () => {
+    expect(toRoman(7728)).toBe('_VMMDCCXXVIII');
 });
 
 test("Check Null", () => {
